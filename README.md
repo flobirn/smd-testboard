@@ -1,6 +1,6 @@
 An attempt to combine the Arduino Nano modules with SMD components.
 
-The PCB is a 10x10cm board, that is divided into 2 5x10cm fields.
+The PCB is a 10x10cm board, that is divided into two 5x10cm fields.
 
 On the front side the are footprints for:
 * upper field:
@@ -8,7 +8,7 @@ On the front side the are footprints for:
   * MCP1501 voltage refference
   * voltage divider with BAV99 protection diodes
   * generic dual opamp with input and feedback resistors
-  * SOT-23 transistor with biasing resistors (select which resistors to populate and which to short-out/leave out in order to obtain the desired circuuit - see examples sheet for very simple examples)
+  * SOT-23 transistor with biasing resistors (select which resistors to populate and which to short-out/leave out in order to obtain the desired circuit - see examples sheet for very simple examples)
   * 6x1208/0805 (the footprint should fit both 1206 and 0805 sizes)
   * half of the pins of the Arduino module
   * pads for GND, 5V, 3,3V
@@ -24,7 +24,7 @@ On the front side the are footprints for:
 On the back side the are footprints for:
 * upper field:
   * generic dual opamp with input and feedback resistors
-  * 3xSOT-23 transistor with biasing resistors (select which resistors to populate and which to short-out/leave out in order to obtain the desired circuuit - see examples sheet for very simple examples)
+  * 3xSOT-23 transistor with biasing resistors (select which resistors to populate and which to short-out/leave out in order to obtain the desired circuit - see examples sheet for very simple examples)
   * 8x1208/0805 (the footprint should fit both 1206 and 0805 sizes)
   * half of the pins of the Arduino module
   * pads for GND, 5V, 3,3V
