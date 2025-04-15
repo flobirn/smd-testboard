@@ -1,7 +1,8 @@
 An attempt to combine the Arduino Nano modules with SMD components.
 
 The PCB is a 10x10cm board, that is divided into 2 5x10cm fields.
-On the front side the are footprints:
+
+On the front side the are footprints for:
 * upper field:
   * LM7805 and LM1117 for 5V and 3,3V power supply (with capacitors and inductance)
   * MCP1501 voltage refference
@@ -18,8 +19,6 @@ On the front side the are footprints:
   *  11x1208/0805 (the footprint should fit both 1206 and 0805 sizes)
   *  dual output power output with DMP4025 and 2N7002. !!! GND is not provided on board, has to be provided via wire !!!
   *  pads for GND, 5V, 3,3V
-
-
 ![front side](/docs/smd-testboard-front.png)
 
 On the back side the are footprints for:
